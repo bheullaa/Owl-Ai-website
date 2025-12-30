@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl AI | Overload Ware Labs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">
+            <img src="assets/owl-logo.png" alt="Owl AI Logo" class="logo-img">
+            <div class="logo-text">
+                <span class="brand">OWL AI</span>
+                <span class="tagline">Overload Ware Labs</span>
+            </div>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">What We Offer</a></li>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#collaborate">Collaborate</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <h1>Build Your Career with <span class="highlight">OWL AI</span></h1>
+        <p>
+            Learn by doing. Gain real-world experience through structured virtual internships,
+            hands-on projects, and industry-recognized certificates.
+        </p>
+        <button class="cta-button" onclick="scrollToFeatures()">Start Your Journey</button>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features" id="features">
+        <h2>What We Offer</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <h3>Self-Paced Learning</h3>
+                <p>Curated modules with real internship-level tasks.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🛠️</div>
+                <h3>Hands-On Projects</h3>
+                <p>Build real projects and gain industry confidence.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📜</div>
+                <h3>Internship Certificates</h3>
+                <p>Boost your resume with verifiable certificates.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Placement Support</h3>
+                <p>HR connections to help you land your first job.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">💼</div>
+                <h3>Client Projects</h3>
+                <p>Deliver real solutions for real businesses.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>Student Community</h3>
+                <p>1000+ learners growing together.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MISSION -->
+    <section class="features light-bg" id="mission">
+        <h2>Our Mission</h2>
+        <p class="center-text">
+            To make quality learning, practical exposure, and career opportunities
+            accessible and affordable for every learner.
+        </p>
+    </section>
+
+    <!-- COLLABORATION -->
+    <section class="features" id="collaborate">
+        <h2>Collaboration Opportunities</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🏢</div>
+                <h3>Companies</h3>
+                <p>UI/UX & Data Science services from trained interns.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">👩‍🏫</div>
+                <h3>Trainers</h3>
+                <p>Promote your courses to a growing learner base.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎓</div>
+                <h3>Students</h3>
+                <p>Practical experience that makes you job-ready.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🤝</div>
+                <h3>Affordable Learning</h3>
+                <p>Quality education at student-friendly pricing.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHAT -->
+    <button class="chat-button" id="chatButton">🤖</button>
+
+    <div class="chat-window" id="chatWindow">
+        <div class="chat-header">
+            <span>Owl AI Assistant</span>
+            <button class="chat-close" id="chatClose">×</button>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                Hello 👋 I'm Owl AI Assistant. How can I help you today?
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 OWL AI – Overload Ware Labs</p>
+        <p>Student-Led EdTech Startup | 1000+ Learners</p>
+        <a href="https://sites.google.com/view/overloadwarelabsai/" target="_blank">
+            Visit Our Main Site →
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
